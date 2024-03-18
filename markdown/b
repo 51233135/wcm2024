@@ -1,0 +1,3 @@
+#!/bin/bash
+#generate blog html filies
+pelican markdown -o blog -s local_publishconf.py
